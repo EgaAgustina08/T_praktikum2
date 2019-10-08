@@ -1,0 +1,80 @@
+body {
+	background:white;
+	margin:0;
+	font-family: times, serif;
+	background-image:url("");
+	background-position: fixed;
+08.
+}
+}
+
+hr {
+	border:0;
+	background:lightpink;
+	height:1px;
+}		
+ 
+header{
+	text-align: left;
+	color: black;
+}
+ 
+header .judul{
+	font-size: 17pt;
+}
+ 
+header .deskripsi{
+	font-size: 11pt;
+}
+.wrap {
+	width: 1500px;
+	margin:0px auto;
+}
+ 
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	text-align: center;
+	margin:0 0 0;
+	background:	lightpink;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	position:center;
+	width: 100%;
+     display: outline;
+    list-style-type: none;
+    height: 65px;
+}
+ 
+nav.menu ul li {
+	margin:0;
+	text-align: center;
+	float:left;
+}
+ 
+nav.menu ul a {
+	padding:25px;
+	display:block;
+	text-align: center;
+	font-weight:600;
+	font-size: 16px;
+	color:black;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:red;
+	text-align: center;
+}
+h1 {
+	font-family: courier, monospace;
+	font-size: 35px;
+	color:black;
+}
